@@ -68,8 +68,8 @@ function NavBar() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/contact" onClick={() => updateExpanded(false)}>
-                                <MdOutlineConnectWithoutContact style={{ marginBottom: "2px" }} /> Connect
+                            <Nav.Link href="mailto:pablo.alejandro315@gmail.com" target="_blank" rel="noreferrer">
+                            <MdOutlineConnectWithoutContact style={{ marginBottom: "2px" }} /> Contact
                             </Nav.Link>
                         </Nav.Item>
 

@@ -48,18 +48,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: #09b2ef;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: rgba(39, 130, 163, 1);
     border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    background: rgba(39, 130, 163, 1);
     border-radius: 12px;
 }
 
@@ -146,8 +146,8 @@ button:focus {
 }
 
 .logo {
-    height: 1.4em !important;
-    width: 2.5em !important;
+    height: 4em !important;
+    width: 8.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -741,4 +741,8 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#scroll > div:nth-child(2) > div > div.resume.row > div > div > div.react-pdf__Page__textContent.textLayer {
+    display: none;
 }
