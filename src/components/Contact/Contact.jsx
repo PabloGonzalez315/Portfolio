@@ -18,7 +18,7 @@ const Contact = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        fetch("./send-email.php", {
+        fetch("/send-email.php", {
             method: "POST",
             body: JSON.stringify(formData),
         })
