@@ -48,7 +48,7 @@ function Projects() {
                             title="Online store"
                             description="Online shoe store with api connection to payment gateway in javascript"
                             ghLink="https://github.com/PabloGonzalez315/Editor.io"
-                            demoLink="https://editor.soumya-jit.tech/"
+                            demoLink="https://pablogonzalez315.github.io/ecommerceJsCoder/"
                         />
                     </Col>
 
